@@ -35,11 +35,11 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Lawrence Moriango
-  email: lawrencemoriango27@gmsil.com # change to your email address
-  links: https://lawrence-moriango-portfolio.vercel.app
-    # The first element serves as the copyright owner's link
-    #- https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/L-moriango/ # change to your GitHub homepage
+  email: lawrencemoriango27@gmail.com # fixed typo (was gmsil -> gmail)
+  # The first element serves as the copyright owner's link
+  links:
+    - https://lawrence-moriango-portfolio.vercel.app
+    - https://github.com/L-moriango
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -224,3 +224,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+    
